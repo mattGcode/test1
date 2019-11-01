@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dbb0c46-45ec-4d90-882e-09c27f9040c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replication-lag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-extract-mac-from-shl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-extract-mac-from-shl2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_statistics.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_statistics.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,13 +20,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/y.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csvtester.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="570">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extract_mac_from_SHL.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/load_avg_graph_basic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#1#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/longrunningqueries.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="e#2#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http_statistics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/replication-lag.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,7 +146,6 @@
         <option value="$PROJECT_DIR$/gary_delete.py" />
         <option value="$PROJECT_DIR$/csvtester.py" />
         <option value="$PROJECT_DIR$/delete2.py" />
-        <option value="$PROJECT_DIR$/http_statistics.py" />
         <option value="$PROJECT_DIR$/asdf.py" />
         <option value="$PROJECT_DIR$/balaji.py" />
         <option value="$PROJECT_DIR$/attempt1.py" />
@@ -99,6 +153,8 @@
         <option value="$PROJECT_DIR$/balaji_with_out_comments.py" />
         <option value="$PROJECT_DIR$/delete1-class-debug.py" />
         <option value="$PROJECT_DIR$/gary2-delete.py" />
+        <option value="$PROJECT_DIR$/http_statistics.py" />
+        <option value="$PROJECT_DIR$/replication-lag.py" />
       </list>
     </option>
   </component>
@@ -109,9 +165,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="834" />
+    <option name="x" value="-2267" />
+    <option name="y" value="-174" />
+    <option name="width" value="1736" />
+    <option name="height" value="951" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -120,19 +177,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_programs" type="462c0819:PsiDirectoryNode" />
+              <item name="test1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,7 +198,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,41 +212,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.robson">
+  <component name="RunManager" selected="Python.replication-lag">
     <configuration name="http_statistics" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/http_statistics.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="longrunningqueries" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/longrunningqueries.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,10 +252,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="replication-lag" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/replication-lag.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="robson" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -260,11 +317,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.replication-lag" />
+        <item itemvalue="Python.http_statistics" />
         <item itemvalue="Python.robson" />
         <item itemvalue="Python.y" />
         <item itemvalue="Python.new-extract-mac-from-shl" />
-        <item itemvalue="Python.longrunningqueries" />
-        <item itemvalue="Python.http_statistics" />
       </list>
     </recent_temporary>
   </component>
@@ -302,10 +359,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="834" extended-state="0" />
-    <editor active="true" />
+    <frame x="-2267" y="-174" width="1736" height="951" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.3025751" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.25014576" />
       <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.13876967" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -313,16 +369,17 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" weight="0.3297568" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" weight="0.2840512" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3652291" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3970297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36437717" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39697322" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32673267" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3669355" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32837838" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.36670548" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
@@ -534,84 +591,19 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="261" selection-start-line="261" selection-end-line="261" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="332" selection-start-line="332" selection-end-line="332" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex-ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_4_data_science.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing-.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.log" />
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/pydev/_pydev_imps/_pydev_execfile.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/random.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py" />
+    <entry file="file://$PROJECT_DIR$/regex-ex.py" />
+    <entry file="file://$PROJECT_DIR$/python_4_data_science.py" />
+    <entry file="file://$PROJECT_DIR$/testing-.py" />
     <entry file="file://$PROJECT_DIR$/dunnnu.py" />
-    <entry file="file://$PROJECT_DIR$/numpy-testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#2#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/numpy-testing.py" />
     <entry file="file://$PROJECT_DIR$/myimage.png" />
-    <entry file="file://$PROJECT_DIR$/np.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oops1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="521" column="40" selection-start-line="521" selection-start-column="40" selection-end-line="521" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/np.py" />
+    <entry file="file://$PROJECT_DIR$/oops1.py" />
+    <entry file="file://$PROJECT_DIR$/robson.py" />
     <entry file="file://$PROJECT_DIR$/2.py" />
     <entry file="file://$PROJECT_DIR$/3.py" />
     <entry file="file://$PROJECT_DIR$/4.py" />
@@ -633,47 +625,12 @@
     <entry file="file://$PROJECT_DIR$/gary_delete.py" />
     <entry file="file://$PROJECT_DIR$/greg.py" />
     <entry file="file://$PROJECT_DIR$/helloworld.py" />
-    <entry file="file://$PROJECT_DIR$/new-extract-mac-from-shl2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#1#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-extract-mac-from-shl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="e#1#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/new-extract-mac-from-shl2.py" />
+    <entry file="file://$PROJECT_DIR$/new-extract-mac-from-shl.py" />
     <entry file="file://$PROJECT_DIR$/attempt1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http_statistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/longrunningqueries.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#2#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,6 +644,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/y.py" />
     <entry file="file://$PROJECT_DIR$/csvtester.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -697,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/delete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extract_mac_from_SHL.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -711,12 +669,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/y.py">
+    <entry file="file://$PROJECT_DIR$/load_avg_graph_basic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/longrunningqueries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#2#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http_statistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replication-lag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
